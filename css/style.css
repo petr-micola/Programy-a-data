@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body {
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #abe9f1;
+}
+
+header {
+  text-align: center;
+  font-size: 22px;
+}
+
+.obrazek-logo {
+  display: block;
+  margin-left: 700px;
+  margin-top: -110px;
+  width: 10%;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  border: 5px solid #333;
+  background-color: #ffffff;
+  width: 50%;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+      
+.dvoustranny-text {
+  column-count: 2;
+  column-gap: 150px;
+  column-span: all;
+  column-width: 100px;
+}
+
+.navigacni-lista1 {
+  width: 9%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigacni-lista1 > li {
+  float: left;
+}
+
+.navigacni-lista1 > li > a {   
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.navigacni-lista1 > li > a:hover:not(.aktivni-stranka) {
+  background-color: #111;
+}
+
+.navigacni-lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigacni-lista > li {
+  float: right;
+}
+
+.navigacni-lista > li > a {   
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.navigacni-lista > li > a:hover:not(.aktivni-stranka) {
+  background-color: #111;
+}
+
+.aktivni-stranka {
+  background-color: #46c2e0;
+}
+
+.footer-prvni {
+  padding-top: 130px;
+}
+
+footer {
+  font-size: 18px;
+  text-align: center;
+}
+
+.blok-prvni {
+  padding-top: 5%;
+  margin-left: 10%;
+}
+
+.blok-druhy {
+  padding-top: 31px;
+}
+
+h2 {
+  font-size: 33px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: left;
+}
+
+.vycentrovani-textu {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+.vycentrovani-objektu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border: 5px solid #333
+}
